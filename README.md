@@ -55,7 +55,7 @@ cp lambda_function.py venv/lib/<python-version>/site-packages/
 cd venv/lib/<python-version>/site-packages
 
 # archive the library contents
-zip -r9 ${OLDPWD}/ssm-login-alerts.zip .
+zip -r9 ${OLDPWD}/critical-patches-alerts.zip .
 
 # move back to the directory
 cd $OLDPWD
